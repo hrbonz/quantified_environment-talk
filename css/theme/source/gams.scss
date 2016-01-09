@@ -1,0 +1,79 @@
+/**
+ * gams theme for reveal.js, copied from black.scss
+ *
+ * Copyright (C) 2016 Stefan Berder <stefan@measureofquality.com>
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+@import url(../../lib/font/source-sans-pro/source-sans-pro.css);
+
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: #037cff;
+
+$mainColor: #ffffff;
+$headingColor: #ffffff;
+
+$mainFontSize: 32px;
+$mainFont: 'Source Sans Pro', Helvetica, sans-serif;
+$headingFont: 'Source Sans Pro', Helvetica, sans-serif;
+$headingTextShadow: none;
+$headingLetterSpacing: normal;
+$headingTextTransform: none;
+$headingFontWeight: 600;
+$linkColor: #030842;
+$linkColorHover: lighten( $linkColor, 15% );
+$selectionBackgroundColor: lighten( $linkColor, 25% );
+
+// http://type-scale.com/
+$heading1Size: 3.998em;
+$heading2Size: 2.827em;
+$heading3Size: 1.999em;
+$heading4Size: 1.414em;
+
+section.has-light-background {
+	&, h1, h2, h3, h4, h5, h6 {
+		color: #222;
+	}
+}
+
+section.cover {
+    text-align: right;
+}
+
+.hl {
+    color: #00ff6f;
+}
+
+.h1 {
+    font-size: $heading1Size !important;
+}
+
+.h2 {
+    font-size: $heading2Size !important;
+}
+
+.h3 {
+    font-size: $heading3Size !important;
+}
+
+.h4 {
+    font-size: $heading4Size !important;
+}
+
+img.wechat-qr {
+    width: 35%;
+}
+
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
+
