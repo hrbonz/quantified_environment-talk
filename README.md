@@ -1,5 +1,7 @@
 # Quantified environment
 
+How the IoT revolution and quantified self movement are creating new means for everybody to take control of their environment. With a focus on air quality, this talk presents the struggles of measuring PM2.5 and why you have to be very careful when buying a monitor that should help you take health decisions.
+
 This talk is using [reveal.js v3.2.0](https://github.com/hakimel/reveal.js).
 
 ## Install
